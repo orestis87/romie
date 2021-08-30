@@ -18,7 +18,7 @@ jobs:
           docker login -u romie --password-stdin
 
       - name: Set up Go
-        uses: actions/setup-go@v2.1.3
+        uses: actions/setup-go@v2.1.4
         with:
           go-version: 1.15.2
 
